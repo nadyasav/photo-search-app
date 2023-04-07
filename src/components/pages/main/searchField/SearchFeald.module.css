@@ -1,0 +1,30 @@
+.search_box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.search_input {
+  height: 45px;
+  max-width: 600px;
+  width: 100%;
+  padding: 0 20px;
+  border-radius: 7px;
+  background: #f2f7fd;
+  border: none;
+  font-size: 18px;
+}
+.search_input::-webkit-search-cancel-button {
+  display: none;
+}
+.search_btn__box {
+  margin-left: 20px;
+}
+@media only screen and (max-width: 420px) {
+  .search_btn__box {
+    margin-left: 10px;
+  }
+  .search_input {
+    padding: 0 10px;
+    font-size: 16px;
+  }
+}

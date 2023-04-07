@@ -1,0 +1,35 @@
+.switcher {
+  display: flex;
+}
+.switcher input {
+  display: none;
+}
+.label {
+  display: block;
+  width: 70px;
+  cursor: pointer;
+}
+.label p {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #b4b7bd;
+  border-radius: 9px;
+  transition: background-color 0.1s ease-in-out;
+}
+.label p:hover,
+.label input:checked + p {
+  background-color: #fafcff;
+}
+.label:first-child p {
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.label:last-child p {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
