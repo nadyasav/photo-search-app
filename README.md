@@ -8,13 +8,11 @@ Test Coverage - 71.18%
 <br/>
 
 ## Deployment
----
 https://nadyasav-react-app.netlify.app/
 
 <br/>
 
 ## Technology Stack
----
 + HTML, CSS
 + TypeScript 
 + [React](https://react.dev/) - Frontend JavaScript library
