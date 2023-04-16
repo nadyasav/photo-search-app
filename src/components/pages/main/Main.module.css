@@ -1,0 +1,46 @@
+.main_page {
+  flex-grow: 1;
+}
+.page__inner {
+  height: inherit;
+  display: flex;
+  flex-direction: column;
+  padding: var(--page-inner-padding);
+}
+.search_feald__box {
+  margin: 50px 0 100px;
+  display: flex;
+  justify-content: center;
+}
+.select__box {
+  max-width: 300px;
+  width: 100%;
+}
+.cards__box {
+  position: relative;
+  min-height: 200px;
+  height: 100%;
+  background-color: var(--main-bg);
+}
+.preloader__box {
+  background-color: rgba(222, 228, 236, 0.8);
+}
+.main__pagination_select {
+  max-width: 70px;
+  width: 100%;
+  margin-right: 20px;
+}
+.main__pagination_box {
+  margin: 30px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+.error {
+  text-align: center;
+  margin-top: 50px;
+}
+@media only screen and (max-width: 420px) {
+  .search_feald__box {
+    margin: 50px 0 70px;
+  }
+}

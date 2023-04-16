@@ -1,0 +1,95 @@
+.cardSingle__wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.back_btn {
+  margin: 10px 20px;
+}
+.img__box {
+  width: 100%;
+  min-height: calc(100vh - 300px);
+  background-color: var(--light-gray);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+.description {
+  padding: 25px 20px 20px 20px;
+  min-height: 160px;
+  display: flex;
+  justify-content: space-between;
+}
+.description__list {
+  width: calc(50% - 15px);
+}
+.description__item {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 15px;
+}
+.title {
+  font-size: 14px;
+  margin-right: 10px;
+  line-height: 18px;
+  color: #4f535c;
+  margin-bottom: 5px;
+}
+.owner {
+  font-size: 18px;
+  font-weight: 700;
+}
+.value {
+  font-size: 17px;
+  font-weight: 500;
+}
+.description__text {
+  font-size: 16px;
+}
+.description__list.description__right {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+.description__right .description__item {
+  margin-left: 30px;
+  flex-direction: column;
+}
+.description__right .description__item:first-child {
+  margin-left: 0;
+}
+.description__right .title {
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .description {
+    padding: 20px 0 0 0;
+  }
+}
+@media only screen and (max-width: 650px) {
+  .img__box {
+    min-height: 200px;
+    height: auto;
+  }
+  .value {
+    font-size: 16px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .description {
+    flex-direction: column;
+  }
+  .description__list {
+    width: 100%;
+  }
+  .description__list.description__right {
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+}

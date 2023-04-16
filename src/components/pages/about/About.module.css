@@ -1,0 +1,3 @@
+.page__inner {
+  padding: var(--page-inner-padding);
+}
